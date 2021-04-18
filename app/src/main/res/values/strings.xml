@@ -1,5 +1,11 @@
 <resources>
-    <string name="app_name">Exam 2</string>
+    <string name="app_name">The Axe Man</string>
     <string name="splash_screen_placeholder">This is the splash screen</string>
     <string name="ChopTrees_screen_placeholder">This is the ChopTrees screen</string>
+    <string name="trees_fallen">Trees fallen:</string>
+    <string name="reset_button">Reset</string>
+    <string name="btnRotate_tree">Tree Rotate</string>
+    <string name="tree_Image">goldStar</string>
+    <string name="text_view">0</string>
+    <string name="exit_button">Exit</string>
 </resources>

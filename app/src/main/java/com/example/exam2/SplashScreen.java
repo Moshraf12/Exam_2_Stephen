@@ -6,6 +6,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
+import android.widget.Toast;
 
 // The activity_splash_screen.xml layout with a complete, pleasing layout [3 morks]
 // Retrieve and display the number of trees chopped down from prior launches [5 marks]
@@ -17,6 +21,7 @@ import android.os.Looper;
 public class SplashScreen extends AppCompatActivity {
     private int splashTime = 5000;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,16 +29,21 @@ public class SplashScreen extends AppCompatActivity {
 
         // do all the things for setting up this screen:
 
-
-
-
         // trigger the next activity after 5 seconds
         new Handler(Looper.getMainLooper()).postDelayed(
                 () -> {
                     Intent myIntent = new Intent(this, ChopTrees.class);
                     startActivity(myIntent);
                 }, splashTime);
-    }
+
+
+
+           }
 
     // need any helper functions? put them here
+
+
+
+
+
 }
